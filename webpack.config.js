@@ -29,13 +29,11 @@ module.exports = {
                 use: ['style-loader', 'css-loader'],
             },
             {
-                test: /\.(jpg|jpeg|png|gif|mp3|svg)$/,
-                use: [
-                    {
-                        loader: 'file-loader',
-                        options: { outputpath: '/img', pulicpath: '/img' },
-                    },
-                ],
+                test: /\.(png|jpe?g|svg)$/,
+                loader: 'file-loader',
+                options: {
+                    name: 'assets/[name].[ext]',
+                },
             },
         ],
     },
