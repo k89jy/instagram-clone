@@ -2,4 +2,16 @@
     background-color: #ffffff;
     padding-left: 12px;
     padding-top: 8px;
+    align-content: stretch;
+    align-items: center;
+    align-content: center;
+}
+.insta-img {
+    padding-right: 100px;
+}
+body {
+    align-items: center;
+    align-content: center;
+    display: block;
+    -webkit-box-align: stretch;
 }
