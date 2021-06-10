@@ -1,0 +1,27 @@
+.search-element {
+    position: relative;
+    display: inline;
+}
+.search-text {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+input {
+    width: 200px;
+    padding-left: 80px;
+    box-sizing: border-box;
+
+    background: url(https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_search_48px-128.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 62px 0;
+    border-radius: 3px;
+    background-color: #fafafa;
+    height: 25px;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0.5, 0.1);
+}
+input:focus {
+    padding-left: 16px;
+    background-position: 0;
+}
